@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.container__portada__index {
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container__portada__index {
+  background-image: url(./home.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/****servicios****/
+.servicios {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./fondo_servicios.jpg);
+  background-size: cover;
+}
+
+.container__servicios, .container__servicios_mobile {
+  width: 90vw;
+  height: 80vh;
+  gap: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container__servicios>*, .container__servicios_mobile>* {
   display: flex;
   flex-direction: column;
+  width: 25vw;
+  height: 70vh;
+  /* background-color: #04083a; */
+  background-color: rgba(0, 0, 0, 0.66);
+  color: #ffffff;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.container_img {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 5vh;
 }
 
-.App-link {
-  color: #61dafb;
+.container_img>img {
+  width: 20vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container__servicios>*>p, .container__servicios_mobile>*>p {
+  height: 20vh;
+  margin: 2vw;
 }
+
+.container__servicios>*>h3, .container__servicios_mobile>*>h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.img__container__servicios {
+  height: 50vh;
+}
+
+/****servicios****/

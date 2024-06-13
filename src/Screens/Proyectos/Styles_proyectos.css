@@ -1,0 +1,255 @@
+.proyectos {
+    /* background-image: url(../img/fondo_pages.jpg); */
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.capa__azul {
+    background-color: rgba(18, 7, 44, 0.76);
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont1 {
+    display: flex;
+    margin: 15vh;
+    gap: 7vw;
+}
+
+.cont1__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont1__text h2 {
+    margin: 0;
+    font-size: 8vh;
+}
+
+.cont1__text p {
+    font-size: 3vh;
+}
+
+.cont1__text p,
+h2 {
+    color: #ffffff;
+}
+
+/******************/
+.swiper {
+    width: 100vw;
+    height: 60vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_fondo_servicios {
+    /* background-image: url(../img/fondo_pages.jpg); */
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content_proyectos {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.66); */
+}
+
+.container_text_proyectos {
+    color: #ffffff;
+    margin: 2vw;
+}
+
+.container_text_proyectos h2 {
+    font-size: 4vw;
+    color: #000000;
+    font-weight: 400;
+}
+
+p {
+    color: #000000;
+}
+
+.container_slider_proyectos {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_text_proyectos {
+    width: 40vw;
+}
+
+.button_portafolio button {
+    width: 12vw;
+    height: 7vh;
+    background-color: transparent;
+    border-color: #000000;
+    color: #000000;
+    cursor: pointer;
+    font-size: 3vh;
+    border: 1px solid #000000;
+}
+
+.container_button_portafolio {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.proyectos_mobile {
+    display: none;
+}
+
+
+.swiper {
+    width: 100vw;
+    height: 60vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container_slider_proyectos .swiper {
+    width: 40vw;
+    height: 95vh;
+
+}
+
+.button_portafolio p {
+    margin: 0;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .content_proyectos {
+        flex-direction: column;
+        height: 140vh;
+        gap: 5vh;
+    }
+
+    .container_text_proyectos {
+        width: 70vw;
+    }
+
+    .container_slider_proyectos {
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .container_slider_proyectos .swiper {
+        width: 80vw;
+        height: auto;
+    }
+
+    .container_button_portafolio {
+        width: 70vw;
+    }
+
+    .div1__section2__fachadas {
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container_text_proyectos h2 {
+        font-size: 3.9vh;
+    }
+
+}
+
+/* @media screen and (max-width:800px) {
+
+    .content_proyectos {
+        flex-direction: column;
+    }
+
+    .container_text_proyectos {
+        width: 90vw;
+        grid-column: 6 / 12;
+        grid-row: 8 / 26
+    }
+
+    .container_text_proyectos h2 {
+        font-size: 5vh;
+    }
+
+    .container_text_proyectos p {
+        font-size: 3vh;
+    }
+
+    .container_slider_proyectos .swiper {
+        width: 80vw;
+    }
+
+    .container_slider_proyectos {
+        width: 100vw;
+        grid-column: 3 / 12;
+        grid-row: 8 / 25;
+    }
+
+    .proyectos_mobile {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(34, 1fr);
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.66);
+    }
+
+    .content_proyectos {
+        display: none;
+    }
+
+    .button_portafolio button {
+        width: 35vw !important;
+    }
+
+    .flechaAbajo {
+        width: 4vw !important;
+    }
+
+    .container_button_portafolio {
+        width: 90vw !important;
+    }
+
+    .img_fondo_mobile {
+        background-size: cover;
+    }
+} */

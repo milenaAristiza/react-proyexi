@@ -1,0 +1,162 @@
+/*:::::Pie de Pagina*/
+.pie-pagina {
+    width: 100%;
+    background-color: #000000;
+  }
+  
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  
+  .pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img {
+    width: 160px;
+  }
+  
+  .pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  
+  .red-social a, .red-social__services a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .red-social a:hover {
+    color: #14aaea;
+  }
+  
+  .pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .pie-pagina .grupo-2 small {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width:800px) {
+    header .logo {
+      height: 9vh !important;
+    }
+
+    .img_menu_h {
+      width: 10vw;
+    }
+  
+    .pie-pagina .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
+  
+    header {
+      gap: 60vw;
+      justify-content: center;
+    }
+  
+    header {
+      padding: 15px;
+      justify-content: space-around;
+      /*   */
+    }
+  
+    header label {
+      display: initial;
+    }
+  
+    header .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+      border-top: 1px solid rgba(0, 0, 0, .1);
+      display: none;
+    }
+  
+    header .navbar ul {
+      flex-direction: column;
+    }
+  
+    header .navbar ul li {
+      width: 100%;
+    }
+  
+    header .navbar ul li ul {
+      position: relative;
+      width: 100%;
+    }
+  
+    header .navbar ul li ul li {
+      background-color: #ffffff;
+    }
+  
+    header .navbar ul li ul li ul {
+      width: 100%;
+      left: 0;
+    }
+  
+    #menu-bar:checked~.navbar {
+      display: initial;
+    }
+  
+    .container_button_portafolio {
+      width: 90vw;
+    }
+  
+    .text_portafolio {
+      color: #14aaea;
+    }
+  
+    .pie-pagina .grupo-1 .box p {
+      font-size: 4vw;
+    }
+  
+    .swiper-pagination-fraction {
+      font-weight: 900;
+    }
+  
+    .flechaAbajo {
+      width: 4vw !important;
+    }
+  
+    .button_portafolio button {
+      width: 35vw !important;
+    }
+  
+  }
+  
