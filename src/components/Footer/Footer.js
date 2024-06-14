@@ -1,10 +1,10 @@
 import React from 'react';
 import LOGO_PROYEXI_TRANSPARENTE from './LOGO_PROYEXI_TRANSPARENTE.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import {Link} from 'react-router-dom';
 import './Styles_footer.css';
 
@@ -30,7 +30,7 @@ export const Footer = () => {
             </div>
             <div className="box">
                 <h2>SIGUENOS</h2>
-                <div className="red-social">
+                {/* <div className="red-social">
                     <Link to="https://www.facebook.com/proyexidisenoycontruccion/?ref=pages_you_manage"
                         target="_blank"><FontAwesomeIcon icon={faFacebook} /></Link>
                     <Link to="https://www.instagram.com/proyexi_diseno_y_construccion?utm_source=qr&igsh=NGhoYTg1ZDkzZXp6"
@@ -41,7 +41,7 @@ export const Footer = () => {
                     <h2>Dirección</h2>
                     <p>Dg 67 B #28-21 Candelaria la nueva
                         ciudad Bogotá</p>
-                </div>
+                </div> */}
             </div>
         </div>
     </footer>

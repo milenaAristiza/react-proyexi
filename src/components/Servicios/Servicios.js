@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
 import { Pagination, Navigation } from 'swiper/modules';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function Servicios(args) {
     const [params, setParams] = useState(args.args);
@@ -39,7 +39,7 @@ function Servicios(args) {
                     <div class="container__text__div1__section2__fachadas">
                         <h3>Aquí tienes una ventana a nuestro trabajo</h3>
 
-                        <div class="red-social__services">
+                        {/* <div class="red-social__services">
                             <Link to="https://www.facebook.com/proyexidisenoycontruccion/?ref=pages_you_manage"
                                 target="_blank"><FontAwesomeIcon icon={faFacebook} /></Link>
                             <Link to="https://www.instagram.com/proyexi_diseno_y_construccion?utm_source=qr&igsh=NGhoYTg1ZDkzZXp6"
@@ -47,7 +47,7 @@ function Servicios(args) {
                             <Link to="https://api.whatsapp.com/send?phone=+573125883290&text=Hola,%20deseo%20una%20cotizacion."
                                 target="_blank" className="fa fa-whatsapp"><FontAwesomeIcon icon={faYoutube} /></Link>
                             <Link to="https://www.youtube.com/channel/UCwwO_LuUHTsqp_L5Kd1NdaQ" target="_blank" className="fa fa-youtube"><FontAwesomeIcon icon={faWhatsapp} /></Link>
-                        </div>
+                        </div> */}
                     </div>
                     <div class="container__slider__div1__section2__fachadas">
                         <div class="container_slider_fachadas">
